@@ -1,0 +1,4762 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b7a6823a-b1c7-4e0a-80a5-75fed4b0f33f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Pcie_library:Bus_PCI_Express_x16_Blade"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -8.89 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Bus_PCI_Express_x16_Blade"
+				(at 13.97 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x16"
+				(at 0.254 84.328 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63"
+				(at -0.254 86.868 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCI Express bus connector x16"
+				(at 0.254 81.788 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "pcie"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*PCIexpress*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bus_PCI_Express_x16_Blade_0_1"
+				(rectangle
+					(start -11.43 64.77)
+					(end 11.43 -162.56)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Bus_PCI_Express_x16_Blade_1_1"
+				(pin passive line
+					(at -15.24 60.96 0)
+					(length 3.81)
+					(name "ENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 57.15 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 54.61 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 48.26 0)
+					(length 3.81)
+					(name "SMCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 45.72 0)
+					(length 3.81)
+					(name "SMDAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 35.56 0)
+					(length 3.81)
+					(name "~{PRSNT1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -15.24 26.67 0)
+					(length 3.81)
+					(name "SPI_EEP_CS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 19.05 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 16.51 0)
+					(length 3.81)
+					(name "SW.DIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 13.97 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 11.43 0)
+					(length 3.81)
+					(name "SW.CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 8.89 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 6.35 0)
+					(length 3.81)
+					(name "FUART.TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 3.81 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 1.27 0)
+					(length 3.81)
+					(name "FUART.RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -1.27 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -3.81 0)
+					(length 3.81)
+					(name "I2C_EEP.SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -6.35 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -8.89 0)
+					(length 3.81)
+					(name "I2C_EEP.SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -11.43 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -13.97 0)
+					(length 3.81)
+					(name "SPI_EEP.MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -16.51 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -19.05 0)
+					(length 3.81)
+					(name "SPI_EEP.MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -21.59 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -24.13 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -26.67 0)
+					(length 3.81)
+					(name "USB.D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -29.21 0)
+					(length 3.81)
+					(name "USB.D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -31.75 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -34.29 0)
+					(length 3.81)
+					(name "SPI_EEP.CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -36.83 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -39.37 0)
+					(length 3.81)
+					(name "SPI_EEP.CS_EEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -41.91 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -44.45 0)
+					(length 3.81)
+					(name "SPI_EEP.CS_SCR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -46.99 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -49.53 0)
+					(length 3.81)
+					(name "BUTTON2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -52.07 0)
+					(length 3.81)
+					(name "BUTTON4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -54.61 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -57.15 0)
+					(length 3.81)
+					(name "USB_INT.D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -59.69 0)
+					(length 3.81)
+					(name "USB_INT.D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -62.23 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -64.77 0)
+					(length 3.81)
+					(name "GPIO38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -67.31 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -69.85 0)
+					(length 3.81)
+					(name "GPIO36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -72.39 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -74.93 0)
+					(length 3.81)
+					(name "GPIO34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -77.47 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -80.01 0)
+					(length 3.81)
+					(name "GPIO32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -82.55 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -85.09 0)
+					(length 3.81)
+					(name "GPIO30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -87.63 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -90.17 0)
+					(length 3.81)
+					(name "GPIO28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -92.71 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -95.25 0)
+					(length 3.81)
+					(name "GPIO26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -97.79 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -100.33 0)
+					(length 3.81)
+					(name "GPIO24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -102.87 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -105.41 0)
+					(length 3.81)
+					(name "GPIO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -107.95 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -110.49 0)
+					(length 3.81)
+					(name "GPIO20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -113.03 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -115.57 0)
+					(length 3.81)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -118.11 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -120.65 0)
+					(length 3.81)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -123.19 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -125.73 0)
+					(length 3.81)
+					(name "GPIO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -128.27 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -130.81 0)
+					(length 3.81)
+					(name "GPIO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -133.35 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -135.89 0)
+					(length 3.81)
+					(name "GPIO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -138.43 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -140.97 0)
+					(length 3.81)
+					(name "GPIO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -143.51 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -146.05 0)
+					(length 3.81)
+					(name "GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -148.59 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -151.13 0)
+					(length 3.81)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -153.67 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -156.21 0)
+					(length 3.81)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B81"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -158.75 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B82"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 68.58 270)
+					(length 3.81)
+					(hide yes)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 68.58 270)
+					(length 3.81)
+					(hide yes)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 68.58 270)
+					(length 3.81)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 68.58 270)
+					(length 3.81)
+					(hide yes)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 68.58 270)
+					(length 3.81)
+					(hide yes)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 68.58 270)
+					(length 3.81)
+					(name "3.3Vaux"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 68.58 270)
+					(length 3.81)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 68.58 270)
+					(length 3.81)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 68.58 270)
+					(length 3.81)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 43.18 180)
+					(length 3.81)
+					(name "JTAG_TRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 40.64 180)
+					(length 3.81)
+					(name "JTAG_TCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 38.1 180)
+					(length 3.81)
+					(name "JTAG_TDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 35.56 180)
+					(length 3.81)
+					(name "JTAG_TDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 33.02 180)
+					(length 3.81)
+					(name "JTAG_TMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 26.67 180)
+					(length 3.81)
+					(name "SPI_CS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 19.05 180)
+					(length 3.81)
+					(name "I2C.SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 16.51 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 13.97 180)
+					(length 3.81)
+					(name "I2C.SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 11.43 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 8.89 180)
+					(length 3.81)
+					(name "SPI.MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 6.35 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 3.81 180)
+					(length 3.81)
+					(name "SPI.MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 1.27 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -1.27 180)
+					(length 3.81)
+					(name "SPI.CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -3.81 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -6.35 180)
+					(length 3.81)
+					(name "SPI.CS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -8.89 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -11.43 180)
+					(length 3.81)
+					(name "UART.TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -13.97 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -16.51 180)
+					(length 3.81)
+					(name "UART.RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -19.05 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -21.59 180)
+					(length 3.81)
+					(name "CAN.H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -24.13 180)
+					(length 3.81)
+					(name "CAN.L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -26.67 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -29.21 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -31.75 180)
+					(length 3.81)
+					(name "STATUS_LED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -34.29 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -36.83 180)
+					(length 3.81)
+					(name "STATUS_LED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -39.37 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -41.91 180)
+					(length 3.81)
+					(name "STATUS_LED3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -44.45 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -46.99 180)
+					(length 3.81)
+					(name "BUTTON1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -49.53 180)
+					(length 3.81)
+					(name "BUTTON3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -52.07 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -54.61 180)
+					(length 3.81)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -57.15 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -59.69 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -62.23 180)
+					(length 3.81)
+					(name "GPIO39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -64.77 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -67.31 180)
+					(length 3.81)
+					(name "GPIO37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -69.85 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -72.39 180)
+					(length 3.81)
+					(name "GPIO35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -74.93 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -77.47 180)
+					(length 3.81)
+					(name "GPIO33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -80.01 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -82.55 180)
+					(length 3.81)
+					(name "GPIO31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -85.09 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -87.63 180)
+					(length 3.81)
+					(name "GPIO29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -90.17 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -92.71 180)
+					(length 3.81)
+					(name "GPIO27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -95.25 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -97.79 180)
+					(length 3.81)
+					(name "GPIO25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -100.33 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -102.87 180)
+					(length 3.81)
+					(name "GPIO23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -105.41 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -107.95 180)
+					(length 3.81)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -110.49 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -113.03 180)
+					(length 3.81)
+					(name "GPIO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -115.57 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -118.11 180)
+					(length 3.81)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -120.65 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -123.19 180)
+					(length 3.81)
+					(name "GPIO15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -125.73 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -128.27 180)
+					(length 3.81)
+					(name "GPIO13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -130.81 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -133.35 180)
+					(length 3.81)
+					(name "GPIO11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -135.89 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -138.43 180)
+					(length 3.81)
+					(name "GPIO9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -140.97 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -143.51 180)
+					(length 3.81)
+					(name "GPIO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -146.05 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -148.59 180)
+					(length 3.81)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -151.13 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -153.67 180)
+					(length 3.81)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -156.21 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A81"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -158.75 180)
+					(length 3.81)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A82"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Pcie_library:Bus_PCI_Express_x16_Blade")
+		(at 156.21 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33e474d1-fbaa-4b85-9bb2-2e3be8c0a4da")
+		(property "Reference" "J7"
+			(at 156.21 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bus_PCI_Express_x16_Blade"
+			(at 156.21 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCIEx16_XKB:CONN-SMD_164P-P1.00-X3113WVS-164-9TV01"
+			(at 156.464 -15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63"
+			(at 155.956 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCI Express bus connector x16"
+			(at 156.464 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C5711234"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A19"
+			(uuid "0eddd289-2047-400f-91f8-6073a9475576")
+		)
+		(pin "A20"
+			(uuid "1c4fdd71-5e36-417e-b539-856761269d69")
+		)
+		(pin "A13"
+			(uuid "5398a083-a5f3-42a2-980b-84f444085d6b")
+		)
+		(pin "A11"
+			(uuid "59e56938-ef67-4abf-9827-8c3d6bf82755")
+		)
+		(pin "A10"
+			(uuid "d69cab0a-83e2-4213-b289-539a05c35f2d")
+		)
+		(pin "A12"
+			(uuid "1370426d-9253-460d-8b57-dbed9fa6481a")
+		)
+		(pin "A14"
+			(uuid "a0ad3fa2-f6f9-4fde-872e-dfefe535b07b")
+		)
+		(pin "A15"
+			(uuid "9e34d428-5228-4aa2-b753-5d4456ab5f40")
+		)
+		(pin "A16"
+			(uuid "afca0b56-e4d5-4a5d-a375-30166867fd56")
+		)
+		(pin "A2"
+			(uuid "c602d39b-966b-4931-985c-aee6687b0a59")
+		)
+		(pin "A22"
+			(uuid "4a1152d0-27a3-4d4c-8119-166cf4f3408f")
+		)
+		(pin "A21"
+			(uuid "df213942-abdf-478c-9e48-decb8f1efd98")
+		)
+		(pin "A17"
+			(uuid "0d4ab906-6268-4571-a636-c107ba288d2a")
+		)
+		(pin "A18"
+			(uuid "b8ce568c-5df0-4c12-83f7-df94a9ec4ccc")
+		)
+		(pin "A23"
+			(uuid "cd112485-96c6-4db5-8e27-a651e9149076")
+		)
+		(pin "A24"
+			(uuid "ca606dd9-acc4-4526-acb4-5d7e109d8224")
+		)
+		(pin "A25"
+			(uuid "f69e8fe4-4d2b-4e6a-9a43-56e766c3a0ae")
+		)
+		(pin "A26"
+			(uuid "70985371-d19a-4eee-83af-bcd5be84d4c0")
+		)
+		(pin "A1"
+			(uuid "c724305f-a85e-4b34-b565-4f47192dd47d")
+		)
+		(pin "A51"
+			(uuid "f66b1296-8a87-4d48-8a2f-21cc5a5897e6")
+		)
+		(pin "A60"
+			(uuid "9a247e80-2958-472a-82eb-f877d7e7281d")
+		)
+		(pin "A37"
+			(uuid "82544504-8437-4e03-9e87-07b0058a6272")
+		)
+		(pin "A43"
+			(uuid "bde3c107-bf8f-46d2-86e2-72240e44856b")
+		)
+		(pin "A62"
+			(uuid "3278b52e-5c0d-4fad-9d52-5acf0f71cc65")
+		)
+		(pin "A28"
+			(uuid "774d27e6-c038-4b20-b948-3cf85d6236ca")
+		)
+		(pin "A66"
+			(uuid "a7fdbc50-7ef8-47f1-9933-06df17bc5e99")
+		)
+		(pin "A80"
+			(uuid "901cdc9d-bc7a-4cf9-907a-20351d0c0c07")
+		)
+		(pin "A33"
+			(uuid "1d3b25ed-6df0-460a-aeaf-0ec92dc9580e")
+		)
+		(pin "A4"
+			(uuid "124607d1-5281-47eb-b3b4-569ebbdbe00a")
+		)
+		(pin "A53"
+			(uuid "afcad085-0239-4e5a-92d4-4ef0d0696472")
+		)
+		(pin "A82"
+			(uuid "5d1cd868-f50b-43c0-a03a-d9a520acd63a")
+		)
+		(pin "A52"
+			(uuid "41f46770-4dc5-4155-a611-776154f8110e")
+		)
+		(pin "A78"
+			(uuid "f06fe492-798b-46cb-a4e5-1fdc65c560df")
+		)
+		(pin "A59"
+			(uuid "8340b1c9-7f48-421a-870b-db21ce5ef85c")
+		)
+		(pin "A9"
+			(uuid "46563fe3-ffbf-4137-91c1-6ba4a969a6ee")
+		)
+		(pin "A81"
+			(uuid "cd181de6-d89b-4980-89c3-cee7c697df71")
+		)
+		(pin "A35"
+			(uuid "bd60fdeb-4810-4e9b-be11-c37f1e6bbe0f")
+		)
+		(pin "A76"
+			(uuid "e6bf4fa3-8e42-4895-8586-fc9c9f7fb28a")
+		)
+		(pin "B1"
+			(uuid "6109efa8-1486-4511-99fc-378b40ea3344")
+		)
+		(pin "A64"
+			(uuid "5018b516-6144-4832-a9ae-820ce0eb3fa8")
+		)
+		(pin "A32"
+			(uuid "e9127fb0-6b17-4568-8f31-3c0986cc5509")
+		)
+		(pin "A3"
+			(uuid "611c31ad-2241-40b4-89e7-5c0ffaa07992")
+		)
+		(pin "A42"
+			(uuid "fb878017-1b2c-4965-ab64-674e24a098a9")
+		)
+		(pin "A45"
+			(uuid "5325c115-2e9f-478f-a31c-a1582329443a")
+		)
+		(pin "A46"
+			(uuid "efd41b19-dc1d-4e42-b2de-c9028fff255d")
+		)
+		(pin "A57"
+			(uuid "fcfbb76b-acfc-4ab0-9403-b49c90ab5b11")
+		)
+		(pin "A65"
+			(uuid "7e1499ea-1950-477e-96a2-0e173e2694c9")
+		)
+		(pin "A7"
+			(uuid "de9bcb74-89b7-4d34-9216-75af27eeb6e6")
+		)
+		(pin "A58"
+			(uuid "97005eff-5f68-4807-af9d-f116f768e8e4")
+		)
+		(pin "A49"
+			(uuid "65512482-1ef9-43fe-a0ca-4f36d3a0acc9")
+		)
+		(pin "A30"
+			(uuid "88da985c-a3f3-4d8f-82f4-fb924b822b44")
+		)
+		(pin "A38"
+			(uuid "1d621afe-4c15-4244-9206-795a4a59fa1f")
+		)
+		(pin "A55"
+			(uuid "bd636a10-7673-488f-a52d-f0d47d87c5a7")
+		)
+		(pin "A34"
+			(uuid "b4c98eb8-b91c-49a9-9168-dccf64867ec7")
+		)
+		(pin "A39"
+			(uuid "e1a87013-510c-414c-90d0-926e6880349e")
+		)
+		(pin "A31"
+			(uuid "3754428f-0e8c-45f9-b202-cf1df7989a25")
+		)
+		(pin "A56"
+			(uuid "22054eb5-624b-48aa-baf6-58ed2742e10f")
+		)
+		(pin "A61"
+			(uuid "162048c1-5aef-4114-a752-416f9b7a9a51")
+		)
+		(pin "A71"
+			(uuid "91525926-0515-4e09-8c1c-c4cd5e424fa7")
+		)
+		(pin "A73"
+			(uuid "4bb42d0a-82c3-415a-b6d9-8ff658bf6ad6")
+		)
+		(pin "A72"
+			(uuid "b04a521c-dcef-4b30-b56d-d67995a823f1")
+		)
+		(pin "A50"
+			(uuid "8ac6edd1-a4b5-4548-9fba-dd1bf513a8a7")
+		)
+		(pin "A54"
+			(uuid "f896bf28-ce1a-4756-8388-04c2e9541cfc")
+		)
+		(pin "A67"
+			(uuid "5fbb6383-937b-4297-b53f-c1e72f354a55")
+		)
+		(pin "A68"
+			(uuid "c875dd08-63ba-4a9f-888d-2556e6ab8133")
+		)
+		(pin "A75"
+			(uuid "51ddc507-413e-462d-b1c7-1238b6af5dc5")
+		)
+		(pin "A77"
+			(uuid "23cd4c03-19dd-4c87-952f-820921cb593f")
+		)
+		(pin "A79"
+			(uuid "7f3b95a1-c0a8-4726-8137-ccbedefc00f5")
+		)
+		(pin "A8"
+			(uuid "ba6a1d9d-4742-4b0e-aa70-1850dc4d2036")
+		)
+		(pin "A41"
+			(uuid "0565afba-ccc8-485d-a972-f8a6ef848591")
+		)
+		(pin "A44"
+			(uuid "5800edae-ae0d-4274-a112-ff2bb67c0a5a")
+		)
+		(pin "A5"
+			(uuid "fea2e92f-b462-4973-8aa7-032e57162feb")
+		)
+		(pin "A63"
+			(uuid "9b59439d-0462-4246-aad6-58eabf3cf8d1")
+		)
+		(pin "A70"
+			(uuid "c67a645e-f0de-4711-9efd-a2178bbf4266")
+		)
+		(pin "A40"
+			(uuid "af7ca67d-97a3-4c3d-88b8-94387dabe5cb")
+		)
+		(pin "A27"
+			(uuid "48cc5a67-f069-4f2d-bc47-ac9e197fe7d1")
+		)
+		(pin "A6"
+			(uuid "4f57db96-8ae3-4172-bb20-690cd4f52e7a")
+		)
+		(pin "A69"
+			(uuid "19097fad-c9b8-4f33-8763-18acf0942518")
+		)
+		(pin "A47"
+			(uuid "865a580c-9f04-480e-ae23-5b1a995d0092")
+		)
+		(pin "A74"
+			(uuid "6a63ea21-8330-4ed4-ba46-3823729e186b")
+		)
+		(pin "A36"
+			(uuid "7cf6593f-775d-4d2b-9849-dd01f0929aad")
+		)
+		(pin "A29"
+			(uuid "3743ffa5-2058-4f76-b761-6c667d1c785c")
+		)
+		(pin "A48"
+			(uuid "4d49543d-3a91-4341-a92b-3a0363e39cf6")
+		)
+		(pin "B27"
+			(uuid "c2184c9f-6448-468d-bd8f-f33910b2526c")
+		)
+		(pin "B19"
+			(uuid "dc13e132-16a8-4d2c-8f49-ae94700a41e9")
+		)
+		(pin "B2"
+			(uuid "e4220876-7a76-49b5-82ae-1b92a465cdb5")
+		)
+		(pin "B17"
+			(uuid "1e5a7422-09a7-473c-bcd4-75fe1c321789")
+		)
+		(pin "B34"
+			(uuid "c0bcb444-ca80-4731-94ee-405d7f3c5d83")
+		)
+		(pin "B14"
+			(uuid "e7da5539-8b73-42b2-b659-bbd2877138ad")
+		)
+		(pin "B12"
+			(uuid "d71fa688-75c0-425b-ad90-959d32d5e84d")
+		)
+		(pin "B24"
+			(uuid "3b5f0fb6-7c1b-4b9d-b578-41287f7c8ceb")
+		)
+		(pin "B38"
+			(uuid "aa88d14f-ee9e-43ed-a919-7b85af6e6b98")
+		)
+		(pin "B40"
+			(uuid "06e81cb8-f7ca-4721-a11a-cd8148c980f7")
+		)
+		(pin "B44"
+			(uuid "b42bbd42-19dc-4e95-8e01-9cf2cdaf27b1")
+		)
+		(pin "B49"
+			(uuid "f060ca05-26fc-4f6f-9b14-ef448337284e")
+		)
+		(pin "B53"
+			(uuid "fe5b5388-6bbe-4d20-9f4a-855b7c6dcd11")
+		)
+		(pin "B57"
+			(uuid "8724c92c-44b0-4a9a-9fc7-19e41d877d31")
+		)
+		(pin "B48"
+			(uuid "f1f5cc63-6c8d-462f-a868-d87e19bb5bac")
+		)
+		(pin "B5"
+			(uuid "b96aef0c-510f-4e22-8a49-733842d3f43e")
+		)
+		(pin "B28"
+			(uuid "05c868e3-b1fe-43cb-8a46-fe70cb7ee3f5")
+		)
+		(pin "B54"
+			(uuid "e47641fb-b409-42ab-a7e3-262e253093d3")
+		)
+		(pin "B3"
+			(uuid "3ef5cfe3-d02a-4135-a488-82060e4925fe")
+		)
+		(pin "B23"
+			(uuid "f4f51e52-1abe-4531-8140-959a8a18a23e")
+		)
+		(pin "B33"
+			(uuid "13cdfbb7-3f88-4e76-96cb-6aa1af17e086")
+		)
+		(pin "B47"
+			(uuid "abc0460a-17d2-44c9-8395-415c5fbd625d")
+		)
+		(pin "B52"
+			(uuid "e8293821-aa50-41b5-85f0-e5bec80e85bb")
+		)
+		(pin "B58"
+			(uuid "6cd851ff-844a-4456-bc81-8ce36b477bcc")
+		)
+		(pin "B11"
+			(uuid "ed82de28-1e97-41f0-8677-05fdafa633e7")
+		)
+		(pin "B4"
+			(uuid "0d44ff30-b316-4ec8-b539-1e46d609eb49")
+		)
+		(pin "B59"
+			(uuid "99315c22-d5b5-4b74-9ba8-a6fde26cffb8")
+		)
+		(pin "B6"
+			(uuid "e0496e66-89ff-4180-8d1c-0823a62f33e8")
+		)
+		(pin "B30"
+			(uuid "4248811e-bb99-40d2-b2ef-830ead47065f")
+		)
+		(pin "B25"
+			(uuid "f31f15b5-8cf0-4d7e-9b1e-f4db4f4cff80")
+		)
+		(pin "B36"
+			(uuid "e4301d44-6bc5-4cb5-b99f-9b86f6f20759")
+		)
+		(pin "B10"
+			(uuid "2ce3c323-35ee-4640-8d00-3459bf15d8d6")
+		)
+		(pin "B22"
+			(uuid "2c8a10d2-5725-447f-ac6d-305cd74cfe59")
+		)
+		(pin "B60"
+			(uuid "acdf5d1f-3e95-4d86-bf77-1a9f520ac128")
+		)
+		(pin "B62"
+			(uuid "005b57a3-0876-48ae-a181-a72236b36d8e")
+		)
+		(pin "B21"
+			(uuid "5214c628-b9ae-495b-b63d-8c48b595ed62")
+		)
+		(pin "B35"
+			(uuid "89504b18-66bc-42f5-bc2f-3726cbc8f93e")
+		)
+		(pin "B63"
+			(uuid "ad206964-1d66-436f-9d2a-aec6823cfb89")
+		)
+		(pin "B64"
+			(uuid "b58d7026-e249-489f-94f1-a2a05fab5037")
+		)
+		(pin "B39"
+			(uuid "2be94457-9a27-429d-afde-3f488aed41a3")
+		)
+		(pin "B43"
+			(uuid "14e8f838-116b-4637-8599-62fe61d952bd")
+		)
+		(pin "B61"
+			(uuid "f97713b1-f47a-4ace-b290-d235a996f34d")
+		)
+		(pin "B65"
+			(uuid "9633bf28-e134-40f9-96c0-cb495b2f3251")
+		)
+		(pin "B66"
+			(uuid "0d512b23-1fdd-4145-aff6-481e1855a04d")
+		)
+		(pin "B18"
+			(uuid "af52bc3f-0bab-41a9-b03c-3fbb365cf251")
+		)
+		(pin "B67"
+			(uuid "af358eb3-7df1-42af-939b-990e34f97814")
+		)
+		(pin "B56"
+			(uuid "a75207e2-018c-4942-9c5b-2396aac397e5")
+		)
+		(pin "B50"
+			(uuid "2e3d484c-fce9-4344-a439-fe33425a4c42")
+		)
+		(pin "B51"
+			(uuid "8a678e32-84db-408e-9f74-235433320860")
+		)
+		(pin "B68"
+			(uuid "85b068d0-d09a-4d4f-b15c-e31c4e636001")
+		)
+		(pin "B26"
+			(uuid "c60bf1bd-6e4d-4016-8c97-265a07cedf92")
+		)
+		(pin "B45"
+			(uuid "aaebab76-4a93-470a-ba77-5f86c8129504")
+		)
+		(pin "B46"
+			(uuid "3fd13f67-576a-4a8b-983b-12038884fd7c")
+		)
+		(pin "B32"
+			(uuid "1ce94d35-9042-42e3-b713-f1887a0f7c54")
+		)
+		(pin "B15"
+			(uuid "6fb4c71b-dbdc-43f6-94d7-2a05e0d5051c")
+		)
+		(pin "B41"
+			(uuid "67eabfd1-2082-4c4b-ab96-600f0b1d67c8")
+		)
+		(pin "B13"
+			(uuid "9a814b49-8f1e-4754-8d22-cd5b7a4e3214")
+		)
+		(pin "B42"
+			(uuid "e6b7c10f-778e-4a22-aba9-7252070cc520")
+		)
+		(pin "B16"
+			(uuid "50836f81-8728-4c29-8d39-56902e2d727d")
+		)
+		(pin "B31"
+			(uuid "e89ccfe1-124e-4c93-806d-cd3d3d0a4cfd")
+		)
+		(pin "B29"
+			(uuid "a09d008b-645f-45f4-807c-f62b77018680")
+		)
+		(pin "B37"
+			(uuid "fd80fbed-7048-4b0b-b779-84f1a5db9a0b")
+		)
+		(pin "B55"
+			(uuid "1b07f9ad-6a38-405f-b78e-1fd5238835da")
+		)
+		(pin "B20"
+			(uuid "ef23c54d-f875-469c-9ab1-3843b96513c6")
+		)
+		(pin "B74"
+			(uuid "4a05407b-decf-4b98-9e5b-b884bfb1542d")
+		)
+		(pin "B9"
+			(uuid "ab3b55fe-5407-48c8-8111-4d87448ffbcc")
+		)
+		(pin "B70"
+			(uuid "60769225-cc38-4b84-845f-1473f6f5c0ca")
+		)
+		(pin "B69"
+			(uuid "b28b2cd6-d2e5-4498-9288-6539953a9e73")
+		)
+		(pin "B71"
+			(uuid "f6facd4c-730d-438c-9203-18ffd5ad9c6f")
+		)
+		(pin "B8"
+			(uuid "46e404b9-5350-4baf-92ac-810e01718e8f")
+		)
+		(pin "B75"
+			(uuid "d8bad7a8-39a0-4265-a3da-5b67c628376f")
+		)
+		(pin "B7"
+			(uuid "082b2e92-fa83-41c4-b54c-b48eae4dd815")
+		)
+		(pin "B79"
+			(uuid "85b48814-02f8-4f61-ad86-8294bde37fc1")
+		)
+		(pin "B76"
+			(uuid "470d2c38-08c6-41ee-9ad1-dec93aa2efed")
+		)
+		(pin "B81"
+			(uuid "46e3f5a5-9cb5-46b4-ab4a-8111aa79cec6")
+		)
+		(pin "B78"
+			(uuid "aa0e8397-e36a-4b44-9b12-70f2ac94df97")
+		)
+		(pin "B80"
+			(uuid "a07b0057-d8b3-4261-ad49-5cd4bff69644")
+		)
+		(pin "B77"
+			(uuid "2a060814-5597-4f7d-90c0-b918fc5aba23")
+		)
+		(pin "B82"
+			(uuid "a1d5eb05-eb07-4bb8-9ed9-7f0b2a6449ee")
+		)
+		(pin "B72"
+			(uuid "955dfba9-cb22-4e6c-bc5e-472ebbe85962")
+		)
+		(pin "B73"
+			(uuid "2e872ae4-4fdb-457a-8035-71e650027031")
+		)
+		(instances
+			(project "BackPanel"
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/0e5ca79e-3ada-4e93-ae1b-63bea9b67d65"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/3605981b-c0d8-4b08-ac31-5a8872b8aa56"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/c8006b45-d7fe-4688-933d-ad09da00a47d"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pcie_library:Bus_PCI_Express_x16_Blade")
+		(at 55.88 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f94cded-3f27-4e37-ad22-3bc76f4a90c4")
+		(property "Reference" "J5"
+			(at 55.88 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bus_PCI_Express_x16_Blade"
+			(at 55.88 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCIEx16_XKB:CONN-SMD_164P-P1.00-X3113WVS-164-9TV01"
+			(at 56.134 -24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63"
+			(at 55.626 -27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCI Express bus connector x16"
+			(at 56.134 -22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C5711234"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A19"
+			(uuid "2ef4fd62-cae1-4a3e-b575-e25e3a8a29a4")
+		)
+		(pin "A20"
+			(uuid "7612ebfb-cb53-4847-8c3c-2861a1e271a1")
+		)
+		(pin "A13"
+			(uuid "3f809afd-ef01-4697-b648-5370d02764ae")
+		)
+		(pin "A11"
+			(uuid "ad3c0245-90c8-4827-8bd9-ad26ed03ae5b")
+		)
+		(pin "A10"
+			(uuid "5d7c9211-a935-48d5-aacc-0f8e976d3d70")
+		)
+		(pin "A12"
+			(uuid "4aea8e45-a211-4c82-84d2-89e33c32a1f1")
+		)
+		(pin "A14"
+			(uuid "06174bf5-357a-4f7f-91e4-026769a7e5c3")
+		)
+		(pin "A15"
+			(uuid "0753de7a-3ed8-4ba3-9b40-1f27d80d1b23")
+		)
+		(pin "A16"
+			(uuid "bbed979b-7e8d-41d1-92c6-d7cd9d81a2bc")
+		)
+		(pin "A2"
+			(uuid "6310a5ae-05eb-4a98-98bf-7d04b8cf0d2e")
+		)
+		(pin "A22"
+			(uuid "e578b8ac-f7f5-404d-98bd-b7783e6786d3")
+		)
+		(pin "A21"
+			(uuid "3a91d92e-a6e3-438a-9129-d672a91621dd")
+		)
+		(pin "A17"
+			(uuid "b74de119-e5b4-4854-81ff-1e2894afb012")
+		)
+		(pin "A18"
+			(uuid "38c3d851-25fd-4bf8-9579-b64df118b80f")
+		)
+		(pin "A23"
+			(uuid "989f4aeb-4e86-4e9e-845d-efa85f8abf3c")
+		)
+		(pin "A24"
+			(uuid "2ec365a5-bd36-479b-bf43-2ef469397891")
+		)
+		(pin "A25"
+			(uuid "3298f244-60ba-4416-964d-4f6e4d1c125c")
+		)
+		(pin "A26"
+			(uuid "54544a3b-d71d-4b16-852e-112617fd54d2")
+		)
+		(pin "A1"
+			(uuid "12cfafb9-b184-4e02-9e05-4cbd490a3365")
+		)
+		(pin "A51"
+			(uuid "b530836b-4929-4a0e-afc1-d39a823915df")
+		)
+		(pin "A60"
+			(uuid "ba63ebf6-15d0-4434-b0e2-1aea4f6bf73f")
+		)
+		(pin "A37"
+			(uuid "e1b8e7a5-f39f-4d93-98ac-78cc9739fb25")
+		)
+		(pin "A43"
+			(uuid "4222e43d-7071-4cb8-93ac-d070bb581938")
+		)
+		(pin "A62"
+			(uuid "3e4e760c-836d-48a4-92c4-2a348f5255be")
+		)
+		(pin "A28"
+			(uuid "fe561ae7-e79f-42c7-bf69-9ead71bd1291")
+		)
+		(pin "A66"
+			(uuid "afa2cd6c-de76-4a6a-be70-29cca3cfb36b")
+		)
+		(pin "A80"
+			(uuid "62f49cac-c861-494e-9a46-eec20348d855")
+		)
+		(pin "A33"
+			(uuid "e4e945b0-81ee-4d13-b670-a87679ddca6b")
+		)
+		(pin "A4"
+			(uuid "2d1a2e55-2129-4073-94e3-0c883312c84d")
+		)
+		(pin "A53"
+			(uuid "8be81640-cf03-4436-aa55-b21e253bda1f")
+		)
+		(pin "A82"
+			(uuid "bf805ec9-75cd-458d-be68-820f1994ec9f")
+		)
+		(pin "A52"
+			(uuid "0ff102a1-22b5-4f86-86ed-102c23b7751f")
+		)
+		(pin "A78"
+			(uuid "7274497d-1080-4aff-a95e-889e7e53fce4")
+		)
+		(pin "A59"
+			(uuid "56bb4735-f6b4-48f9-950b-ad3d1860fb8f")
+		)
+		(pin "A9"
+			(uuid "ee3a52ab-baa5-4ed7-8c7c-57cbb7e3f8b8")
+		)
+		(pin "A81"
+			(uuid "695434cc-15c7-4cb2-86ce-e98cdfd36b76")
+		)
+		(pin "A35"
+			(uuid "d00eb006-c840-43e6-a4d5-75f4498d328b")
+		)
+		(pin "A76"
+			(uuid "29a262e5-5d1f-4e56-9d63-2f748df0ca06")
+		)
+		(pin "B1"
+			(uuid "5beba6c0-84ae-4bc6-a2b2-7e1b786cfa77")
+		)
+		(pin "A64"
+			(uuid "e7f05011-fa2b-41d7-8080-a7fcf7d4170a")
+		)
+		(pin "A32"
+			(uuid "9bc9b551-1bb7-4d7c-bb77-54a18003438d")
+		)
+		(pin "A3"
+			(uuid "627df371-d068-40fa-9afc-a41a8728f1bb")
+		)
+		(pin "A42"
+			(uuid "ddcc0a4a-d5e6-435a-92ff-7ecb7a73b208")
+		)
+		(pin "A45"
+			(uuid "008776a7-a7af-4b06-ba92-374203cf26e8")
+		)
+		(pin "A46"
+			(uuid "84b3e2e6-a6fa-4a06-b5fe-f2a770d87937")
+		)
+		(pin "A57"
+			(uuid "c111b044-01ac-41ed-9f45-1ce22b1d2850")
+		)
+		(pin "A65"
+			(uuid "9d8c4262-d374-4d2c-a4fa-79031d60c300")
+		)
+		(pin "A7"
+			(uuid "8bedbf13-5625-4a2c-9071-26801f62ca48")
+		)
+		(pin "A58"
+			(uuid "c7601c92-7b6e-4d5e-b915-2aaa9ab472cf")
+		)
+		(pin "A49"
+			(uuid "a6ad6a91-088e-4d06-999b-8be100b19f24")
+		)
+		(pin "A30"
+			(uuid "c1d395e3-7679-469a-8d21-a7ab1b9b22dc")
+		)
+		(pin "A38"
+			(uuid "3fc31757-01b8-4cd5-a598-b0bb69c22903")
+		)
+		(pin "A55"
+			(uuid "8f08ef30-65b5-47af-a1bb-c2f4fb320dda")
+		)
+		(pin "A34"
+			(uuid "d0565c11-7213-4068-85e3-b45ba8831a86")
+		)
+		(pin "A39"
+			(uuid "664f6fd8-a2ef-4d05-855a-7ea1b72c996c")
+		)
+		(pin "A31"
+			(uuid "6c03af32-36b4-4883-b9c2-2f81cfe75af6")
+		)
+		(pin "A56"
+			(uuid "8ef7b4e6-db57-4bd1-a495-bb2f3770ee1b")
+		)
+		(pin "A61"
+			(uuid "1fc647c3-41c4-489f-8c47-ac293b492d65")
+		)
+		(pin "A71"
+			(uuid "269ca94d-ffc8-44f8-9007-6bcc1069bdcd")
+		)
+		(pin "A73"
+			(uuid "cf8a44e1-a369-4519-a9fc-6195c085cd37")
+		)
+		(pin "A72"
+			(uuid "a915893f-d08d-4d41-bd51-d66308167aa9")
+		)
+		(pin "A50"
+			(uuid "d743d7d3-4cc2-405b-b0b3-44c7480b251f")
+		)
+		(pin "A54"
+			(uuid "125950da-27a0-4745-90d2-15215029b58a")
+		)
+		(pin "A67"
+			(uuid "69686164-f5dd-4845-8ecf-6e525a964207")
+		)
+		(pin "A68"
+			(uuid "8be9eec1-fe3d-42c9-8c9c-666826ce6c63")
+		)
+		(pin "A75"
+			(uuid "a4163ca8-c101-4f8b-8a97-c5f6f7485064")
+		)
+		(pin "A77"
+			(uuid "986a7424-ad49-4a7b-a14d-e576a78aba0e")
+		)
+		(pin "A79"
+			(uuid "bde4bf57-73b4-470b-81bb-282d12d18707")
+		)
+		(pin "A8"
+			(uuid "8089214a-476f-488c-ad9e-d8f0d331576b")
+		)
+		(pin "A41"
+			(uuid "e1b55fef-4744-4016-b2f5-e1b22328189a")
+		)
+		(pin "A44"
+			(uuid "7593d501-e7ca-4006-8680-3cfff6d56929")
+		)
+		(pin "A5"
+			(uuid "fb8d2651-3b8e-4c4c-8139-9983b89f6aac")
+		)
+		(pin "A63"
+			(uuid "ff9b4246-a5f2-4103-8238-288427406ed7")
+		)
+		(pin "A70"
+			(uuid "d7a0acbf-a4f8-482f-8f3f-d22e95e04dfd")
+		)
+		(pin "A40"
+			(uuid "5ceb1911-304a-413a-a446-646ff6a0323b")
+		)
+		(pin "A27"
+			(uuid "eeb295dc-1f7e-438c-afe8-6ce19a243396")
+		)
+		(pin "A6"
+			(uuid "e42c81d5-3249-4b4d-9365-30692fb5ef4b")
+		)
+		(pin "A69"
+			(uuid "39912457-b858-412c-bf61-808e8dbdf6bd")
+		)
+		(pin "A47"
+			(uuid "0d674d9a-fc0c-42e7-9af5-eb9600b784d1")
+		)
+		(pin "A74"
+			(uuid "3c14db78-435b-416f-ae79-25df626c3d89")
+		)
+		(pin "A36"
+			(uuid "12eddbe3-1599-4271-8741-e3dfadf9e083")
+		)
+		(pin "A29"
+			(uuid "4234710a-233a-4705-a501-314dfebcea7f")
+		)
+		(pin "A48"
+			(uuid "7c428b73-6302-4aa1-b384-8270c1122726")
+		)
+		(pin "B27"
+			(uuid "c0500f7a-970d-4be0-9026-4a889590ef0f")
+		)
+		(pin "B19"
+			(uuid "658c1c57-7e1f-4104-9059-d0d366db97a1")
+		)
+		(pin "B2"
+			(uuid "ec636c78-5831-4b16-a7ff-0b960c52c930")
+		)
+		(pin "B17"
+			(uuid "1fc727a3-46ee-462d-8bed-8865cde5f40b")
+		)
+		(pin "B34"
+			(uuid "00193bf8-f8fa-4b5a-8241-a1018d0c5872")
+		)
+		(pin "B14"
+			(uuid "74d99773-4534-4b44-a09e-99efd4bbb762")
+		)
+		(pin "B12"
+			(uuid "19ab1c7c-b35e-49f3-b0df-fde7719fb879")
+		)
+		(pin "B24"
+			(uuid "523c9faf-8155-485f-8037-330f8518a664")
+		)
+		(pin "B38"
+			(uuid "a2bb37bc-c5a1-4bd7-83df-6afe0fc0f884")
+		)
+		(pin "B40"
+			(uuid "bccbcba3-85ea-41a4-b51f-40865853f29e")
+		)
+		(pin "B44"
+			(uuid "2574ab60-d9a8-418d-b950-ea1980be16e3")
+		)
+		(pin "B49"
+			(uuid "6ba9d709-e6bf-4cf3-a363-0be4485c1d45")
+		)
+		(pin "B53"
+			(uuid "49e2ab06-ea38-4065-b965-3e6edcd95eba")
+		)
+		(pin "B57"
+			(uuid "6bcde0d6-3c61-4912-947e-f0ce7ad92064")
+		)
+		(pin "B48"
+			(uuid "68fc47eb-4352-4de1-b4d0-6c8dabf5950b")
+		)
+		(pin "B5"
+			(uuid "6686d4c7-c64b-4df4-9205-7ac66e51c16b")
+		)
+		(pin "B28"
+			(uuid "1b99d08f-c636-4444-97f9-889aea649ed1")
+		)
+		(pin "B54"
+			(uuid "dbe0c537-9391-44bd-8c23-de2d6ecca787")
+		)
+		(pin "B3"
+			(uuid "cf3f7d5b-10d4-4e10-8525-5c248a00ac6f")
+		)
+		(pin "B23"
+			(uuid "6a3f216c-2a91-473f-945d-4659e9a26899")
+		)
+		(pin "B33"
+			(uuid "845d9892-cd7b-4e8a-be6e-6accbd819124")
+		)
+		(pin "B47"
+			(uuid "04c694e5-6854-4b73-9c4e-f0f5677f3cb8")
+		)
+		(pin "B52"
+			(uuid "5c2f8765-566d-43eb-911f-986ab85b9119")
+		)
+		(pin "B58"
+			(uuid "546ade75-983f-4ac5-b4b9-dec6b5bdd98c")
+		)
+		(pin "B11"
+			(uuid "80a351f4-1189-446e-b301-a653fdbb99df")
+		)
+		(pin "B4"
+			(uuid "5b6989aa-18d5-4c53-875d-3329684077f2")
+		)
+		(pin "B59"
+			(uuid "a959c3db-543f-4a7f-8121-d651b8aed88d")
+		)
+		(pin "B6"
+			(uuid "62c3b575-ffb3-40e5-9f28-4836a92728cc")
+		)
+		(pin "B30"
+			(uuid "7d45ec97-2e38-4ff7-a3d5-01884a5df9a8")
+		)
+		(pin "B25"
+			(uuid "615f8296-dca3-4fc1-90e2-208be5e6758a")
+		)
+		(pin "B36"
+			(uuid "000a06aa-ac23-44c3-bb90-b086e89fba04")
+		)
+		(pin "B10"
+			(uuid "42b0904e-cdc7-45d1-a131-394d873bf571")
+		)
+		(pin "B22"
+			(uuid "9d153aad-a147-4542-97d9-b479091c8857")
+		)
+		(pin "B60"
+			(uuid "6557463a-28f3-46a8-9eab-5067ef6d47cc")
+		)
+		(pin "B62"
+			(uuid "9b658f02-c0cb-4ca7-ade6-528c03b17635")
+		)
+		(pin "B21"
+			(uuid "0bc951f6-b28b-45ff-b4e0-a3f903264226")
+		)
+		(pin "B35"
+			(uuid "398b958f-0416-42a7-b459-6a7a6c5f3dc5")
+		)
+		(pin "B63"
+			(uuid "d9e0dd7c-7447-4367-9eef-0163297588c4")
+		)
+		(pin "B64"
+			(uuid "ad6bd853-8d3e-4e3c-ab0e-6af23c7c3fd1")
+		)
+		(pin "B39"
+			(uuid "45894d50-8d22-4017-b181-247c021e7271")
+		)
+		(pin "B43"
+			(uuid "215a1194-7169-4f9d-9b77-c74750d85024")
+		)
+		(pin "B61"
+			(uuid "3a9e7c7c-f84b-4807-bc1a-4ba6c3377fc3")
+		)
+		(pin "B65"
+			(uuid "7dc14bfe-ad5f-40a8-a3c1-1dbff60e2bd2")
+		)
+		(pin "B66"
+			(uuid "540bdec4-5333-466e-8616-d2d2cb54c156")
+		)
+		(pin "B18"
+			(uuid "ca9153c2-0891-4c54-920a-6306af942ba1")
+		)
+		(pin "B67"
+			(uuid "2b0017f8-0d31-4608-a03d-0c4fd570d5f8")
+		)
+		(pin "B56"
+			(uuid "7e79c9c7-323e-4e63-99ec-e5fccbc3eb9c")
+		)
+		(pin "B50"
+			(uuid "d3231c14-985f-4d35-b4a1-c191aaf9d637")
+		)
+		(pin "B51"
+			(uuid "1ed5dfd1-4206-4aea-b209-a796e2e165c9")
+		)
+		(pin "B68"
+			(uuid "1411c3ea-62c0-47fd-b98e-2785a0b21a1b")
+		)
+		(pin "B26"
+			(uuid "6801ddb1-7821-4a10-951e-eeb28c30484f")
+		)
+		(pin "B45"
+			(uuid "c6761951-d469-4f4e-a83b-854277bb5c11")
+		)
+		(pin "B46"
+			(uuid "e3ec1091-2160-42fd-8f4d-731d40b942d1")
+		)
+		(pin "B32"
+			(uuid "c09b6d0a-9ef2-4afc-9bd2-1d812b4daaf4")
+		)
+		(pin "B15"
+			(uuid "488bf4c2-b26e-4812-b3db-98e07bfccc9c")
+		)
+		(pin "B41"
+			(uuid "5949e972-6132-4982-9ca3-008f2700966b")
+		)
+		(pin "B13"
+			(uuid "ca4eb491-d86f-4c39-a6a0-e5ac5e561f5f")
+		)
+		(pin "B42"
+			(uuid "bfc5c543-2205-4f93-a263-77370d7d5594")
+		)
+		(pin "B16"
+			(uuid "644f68c2-defc-4cc2-a93a-e59103570ead")
+		)
+		(pin "B31"
+			(uuid "0fde363b-cada-46d3-bf15-36b08a297669")
+		)
+		(pin "B29"
+			(uuid "bdadb0da-ea58-4f10-9fdd-f7b8756ce2e2")
+		)
+		(pin "B37"
+			(uuid "781ab667-98af-4d7e-a7bd-6a202fc3834d")
+		)
+		(pin "B55"
+			(uuid "6338f09f-d33a-4e10-9d48-0d942dfa382e")
+		)
+		(pin "B20"
+			(uuid "2ec66bc4-cbe6-47c6-add7-38074361dd54")
+		)
+		(pin "B74"
+			(uuid "4accbb1c-3eca-4f2d-a07f-a73452a0acb1")
+		)
+		(pin "B9"
+			(uuid "a71eddf1-1308-4c40-bd29-19d399d8049e")
+		)
+		(pin "B70"
+			(uuid "25552367-751c-4cd9-8cb3-b4802680c4b5")
+		)
+		(pin "B69"
+			(uuid "28e2e689-f976-496b-af93-edaee77d1145")
+		)
+		(pin "B71"
+			(uuid "281475eb-9fd0-4fc3-b9a9-a816f4e7df22")
+		)
+		(pin "B8"
+			(uuid "43b43662-26ad-4114-9603-1794bac6f04d")
+		)
+		(pin "B75"
+			(uuid "2b68dad9-d8bf-436f-affd-c6cddb998668")
+		)
+		(pin "B7"
+			(uuid "637fe519-dae4-46e6-afe0-3d78e7738fda")
+		)
+		(pin "B79"
+			(uuid "e6bb7357-e447-4b6b-b5f1-9e504970b8e2")
+		)
+		(pin "B76"
+			(uuid "4e63779e-6dc1-4838-bcf6-a6eda2b01cfe")
+		)
+		(pin "B81"
+			(uuid "778d3ddf-1ae1-4cbd-b906-004f3d020603")
+		)
+		(pin "B78"
+			(uuid "95ce1414-c6ae-4540-88de-139b3aaf9c46")
+		)
+		(pin "B80"
+			(uuid "105cb5ba-5f8d-4899-affa-7ed54b79d740")
+		)
+		(pin "B77"
+			(uuid "834e3b39-e310-489c-93a2-3c8c8be4f938")
+		)
+		(pin "B82"
+			(uuid "be1f118f-ec9d-4fc9-940b-7c75bea4a54a")
+		)
+		(pin "B72"
+			(uuid "d97e5fc9-9036-4fa4-89e4-775990e98804")
+		)
+		(pin "B73"
+			(uuid "ca1c142c-9056-463c-a866-91fcccc4fafc")
+		)
+		(instances
+			(project "BackPanel"
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/0e5ca79e-3ada-4e93-ae1b-63bea9b67d65"
+					(reference "J8")
+					(unit 1)
+				)
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/3605981b-c0d8-4b08-ac31-5a8872b8aa56"
+					(reference "J5")
+					(unit 1)
+				)
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/c8006b45-d7fe-4688-933d-ad09da00a47d"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pcie_library:Bus_PCI_Express_x16_Blade")
+		(at 101.6 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b79b89b8-9662-45f8-9e27-d83d43af59c2")
+		(property "Reference" "J6"
+			(at 101.6 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bus_PCI_Express_x16_Blade"
+			(at 101.6 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCIEx16_XKB:CONN-SMD_164P-P1.00-X3113WVS-164-9TV01"
+			(at 101.854 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63"
+			(at 101.346 -15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCI Express bus connector x16"
+			(at 101.854 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C5711234"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A19"
+			(uuid "1ddc01cf-8b46-4cff-a8ee-a7213315455b")
+		)
+		(pin "A20"
+			(uuid "f2ce33a2-0660-45da-b899-23a7a1bb2743")
+		)
+		(pin "A13"
+			(uuid "8c6fed5d-1b7b-4b64-b8f7-f905246ff91b")
+		)
+		(pin "A11"
+			(uuid "43c8cb61-0eea-42bb-8265-e45634763806")
+		)
+		(pin "A10"
+			(uuid "f4d81dc9-1ef7-4903-9b2f-cb7c0b0fad08")
+		)
+		(pin "A12"
+			(uuid "dd6ea14d-1b13-492a-a490-00a922c42927")
+		)
+		(pin "A14"
+			(uuid "e46b1099-44d8-419b-8482-544e2a88de66")
+		)
+		(pin "A15"
+			(uuid "e9784620-2a72-4b23-9c57-35c6742cda51")
+		)
+		(pin "A16"
+			(uuid "a3b614c4-5fa5-475a-b41d-ed0ad0c5c20f")
+		)
+		(pin "A2"
+			(uuid "2fbde712-d8f1-4880-b191-7c789bf8089d")
+		)
+		(pin "A22"
+			(uuid "484aa32b-01c3-4eb0-9672-11deb0f08e00")
+		)
+		(pin "A21"
+			(uuid "53cb5da7-0fbc-4eb5-a74d-5bb582984a61")
+		)
+		(pin "A17"
+			(uuid "d919f472-bc43-4e8c-a58d-78fd9f19a06d")
+		)
+		(pin "A18"
+			(uuid "c7ffd2f4-ef5b-4d57-8d86-d80f634cb120")
+		)
+		(pin "A23"
+			(uuid "8558718e-2a23-4aba-a8c9-7631ef0b6b2c")
+		)
+		(pin "A24"
+			(uuid "c0be1413-f18c-4240-88f8-b052789891b3")
+		)
+		(pin "A25"
+			(uuid "4ef3bfe5-8ca6-49db-8835-722be86347b2")
+		)
+		(pin "A26"
+			(uuid "de45525c-5dae-4d94-88ff-f69d845d3a80")
+		)
+		(pin "A1"
+			(uuid "8dec2823-7b5a-4848-8872-c3eb42fbbcde")
+		)
+		(pin "A51"
+			(uuid "4a954651-f4f1-4c9d-9919-d2d8f91b6478")
+		)
+		(pin "A60"
+			(uuid "fffb8adf-1dea-42f7-9f93-7709ad193087")
+		)
+		(pin "A37"
+			(uuid "97b2a2ea-7e0a-4b0e-9eb5-420f1f42334f")
+		)
+		(pin "A43"
+			(uuid "3e8ab129-9344-458c-b548-e6cde3f2cdf3")
+		)
+		(pin "A62"
+			(uuid "fcfc2d40-ae08-4440-a9fb-42e09ef0696c")
+		)
+		(pin "A28"
+			(uuid "300fc67a-bb62-431f-aaa0-32ae5829c135")
+		)
+		(pin "A66"
+			(uuid "3c737d73-3788-4afa-8cd5-adeea5694bbd")
+		)
+		(pin "A80"
+			(uuid "6277837c-528f-4e3c-b7fe-1cf6dc0ee5e3")
+		)
+		(pin "A33"
+			(uuid "5ec4d696-430a-4ef4-8aac-fcdaf553939a")
+		)
+		(pin "A4"
+			(uuid "a4be66f3-d5a7-4868-8657-03c7c2565f51")
+		)
+		(pin "A53"
+			(uuid "5c031bdf-8034-4ba4-8670-eba280a2eb01")
+		)
+		(pin "A82"
+			(uuid "1f31c1a4-5b1d-4e04-8287-30b22aee55db")
+		)
+		(pin "A52"
+			(uuid "a0783d26-53aa-4325-8dab-a1f4bfff146f")
+		)
+		(pin "A78"
+			(uuid "c60c3030-0a73-433a-ae8b-c6ce3ca1d7ca")
+		)
+		(pin "A59"
+			(uuid "5e4bf69d-5c05-462b-9c09-470f5e3f44b3")
+		)
+		(pin "A9"
+			(uuid "a118b307-c1cb-4144-8885-4bdc15207ff1")
+		)
+		(pin "A81"
+			(uuid "f6bc0952-050f-48b7-b178-1ac9715f1504")
+		)
+		(pin "A35"
+			(uuid "90eda793-f780-4827-a0fe-576a44fd1b1d")
+		)
+		(pin "A76"
+			(uuid "d71ebb46-969d-45cd-b7bd-7b5e2bad8b88")
+		)
+		(pin "B1"
+			(uuid "601fe7ad-9f5a-4209-8577-3c8864e431ba")
+		)
+		(pin "A64"
+			(uuid "455b48b0-2b40-41fb-b4a1-17ad21786db0")
+		)
+		(pin "A32"
+			(uuid "3d941525-986d-41e8-a611-8e1cff99f925")
+		)
+		(pin "A3"
+			(uuid "c61c52cc-2a7c-4199-841c-ae42b46b9d6f")
+		)
+		(pin "A42"
+			(uuid "13c78c9f-84bf-4ca7-9195-fafa2f3d48f1")
+		)
+		(pin "A45"
+			(uuid "7b16465b-f539-4019-b5d4-539738469e02")
+		)
+		(pin "A46"
+			(uuid "2df2e531-e9df-417b-8197-f20b29ee9648")
+		)
+		(pin "A57"
+			(uuid "39042085-2ec8-4c0f-acaf-6afe0b0ec7c3")
+		)
+		(pin "A65"
+			(uuid "3982d747-2839-4a1f-b01c-249701bfe11f")
+		)
+		(pin "A7"
+			(uuid "4d8efc00-ea6c-4c11-b678-99f11d542e62")
+		)
+		(pin "A58"
+			(uuid "b885f784-7c73-4a28-9ff3-6d03a0c01e3e")
+		)
+		(pin "A49"
+			(uuid "14ca300d-7629-418f-b658-02f970d8052d")
+		)
+		(pin "A30"
+			(uuid "aef519d8-a4cd-43b0-abb7-d22e251a1a3d")
+		)
+		(pin "A38"
+			(uuid "bcdf7319-45fa-42cc-9a02-a74dfee11554")
+		)
+		(pin "A55"
+			(uuid "ebeaac65-ddef-48fd-9401-82e586077dd3")
+		)
+		(pin "A34"
+			(uuid "a8d9ee4d-95cc-4aa4-9164-313a42d6ec31")
+		)
+		(pin "A39"
+			(uuid "78d0d23b-0947-4016-841e-2c3508f8810f")
+		)
+		(pin "A31"
+			(uuid "f31de9ff-e0d7-4ec1-8bda-611ff987ae2a")
+		)
+		(pin "A56"
+			(uuid "5dc30714-4ae2-490b-bbbd-d18459e57666")
+		)
+		(pin "A61"
+			(uuid "0b337647-db20-46aa-a8f9-e9b70c300c67")
+		)
+		(pin "A71"
+			(uuid "b6d1c672-b7c9-450a-888e-493ca0af6b69")
+		)
+		(pin "A73"
+			(uuid "14ce4403-2b08-466c-b6b6-ab3c7dd0edba")
+		)
+		(pin "A72"
+			(uuid "ecebec3b-7340-496f-9f53-3d478e3aa971")
+		)
+		(pin "A50"
+			(uuid "47299c22-f080-4fb6-8431-a962299eb5ba")
+		)
+		(pin "A54"
+			(uuid "1ceb873c-a7e5-47cd-b03b-2c6f51f5cfb5")
+		)
+		(pin "A67"
+			(uuid "087047a4-d544-47cd-ac21-fe0e5ad01d3c")
+		)
+		(pin "A68"
+			(uuid "aefb9413-6401-4e31-a330-04723d3df6b2")
+		)
+		(pin "A75"
+			(uuid "eea51cad-a8a1-4428-a889-17e36e104af3")
+		)
+		(pin "A77"
+			(uuid "3b5b43e7-151c-40d2-8dae-7e241f44c32f")
+		)
+		(pin "A79"
+			(uuid "69badec6-d79a-4d3e-9a3d-e7c235821343")
+		)
+		(pin "A8"
+			(uuid "fad0528b-be67-486d-91ba-bae9c9731d8d")
+		)
+		(pin "A41"
+			(uuid "cd4f4ab2-068a-46b0-a4c9-be7ba1504f3f")
+		)
+		(pin "A44"
+			(uuid "e41d98e4-958e-4e03-ae39-b79557171a77")
+		)
+		(pin "A5"
+			(uuid "06765071-5c2a-4a01-bdb7-6d3500f8650c")
+		)
+		(pin "A63"
+			(uuid "edbc67ca-982a-4def-b5bb-8bda3163d230")
+		)
+		(pin "A70"
+			(uuid "204ad7c5-d51f-4f57-aee0-be1f13be737a")
+		)
+		(pin "A40"
+			(uuid "f929e1de-caa8-4031-b72e-7f37c76007a8")
+		)
+		(pin "A27"
+			(uuid "eb18f031-da25-4da1-a2fc-3695e67b3db1")
+		)
+		(pin "A6"
+			(uuid "b34332b3-b6fa-41bc-af6b-5bae31615af9")
+		)
+		(pin "A69"
+			(uuid "49f32761-d852-41df-a089-a9016a507792")
+		)
+		(pin "A47"
+			(uuid "51da1f0a-c628-428e-9a36-b339326b7fc6")
+		)
+		(pin "A74"
+			(uuid "ea6ad37a-9399-42ea-beae-ce4fdc19cbcf")
+		)
+		(pin "A36"
+			(uuid "f6af3d81-1bc4-4ec3-bd30-50cca4506a89")
+		)
+		(pin "A29"
+			(uuid "e6160f76-5602-404a-a19b-9266661941da")
+		)
+		(pin "A48"
+			(uuid "7923ac29-5463-4476-bdb9-37b2aef80c23")
+		)
+		(pin "B27"
+			(uuid "d2271b67-5a6f-46b5-a4a0-6ffc394e6fe7")
+		)
+		(pin "B19"
+			(uuid "88fb7534-49ed-436e-bfe6-cc5269756639")
+		)
+		(pin "B2"
+			(uuid "084ace2a-6726-4799-ae17-c2821e7d1667")
+		)
+		(pin "B17"
+			(uuid "1a682e19-2546-4347-ab71-70d3b4229dae")
+		)
+		(pin "B34"
+			(uuid "4b19fb7d-d62d-4d54-aaf9-6f8668ac761f")
+		)
+		(pin "B14"
+			(uuid "2b2ed88a-eb85-4cf6-a962-c84d202cac6b")
+		)
+		(pin "B12"
+			(uuid "33c2ea93-813a-40a4-8c59-0b8dd44afc9f")
+		)
+		(pin "B24"
+			(uuid "e5b2527d-60f4-4be1-a86d-61375887cd9b")
+		)
+		(pin "B38"
+			(uuid "b01eaf7c-80ac-43b8-a104-ed81c31ab66e")
+		)
+		(pin "B40"
+			(uuid "11ad9e6c-9003-4251-8bf1-7cf5a949dbdd")
+		)
+		(pin "B44"
+			(uuid "d15f2094-74f4-4d94-9d7a-70e9f8fec7a2")
+		)
+		(pin "B49"
+			(uuid "68956c2c-5330-40c0-9ec0-1a33212e1c99")
+		)
+		(pin "B53"
+			(uuid "e6665c57-aea2-4f49-a4ec-1c6143cd000b")
+		)
+		(pin "B57"
+			(uuid "90eae5a2-2a96-4c73-9ceb-b079bb2c6777")
+		)
+		(pin "B48"
+			(uuid "fa56217d-a98d-4be4-b3fe-bc0cb182feca")
+		)
+		(pin "B5"
+			(uuid "aa342184-85fd-40f6-a0c5-25c97e7baaf8")
+		)
+		(pin "B28"
+			(uuid "bcc00d4a-a0e6-44b6-86bc-2b2b4a98e7c1")
+		)
+		(pin "B54"
+			(uuid "6dca1d5f-10f3-42ea-9348-4ffe33b58059")
+		)
+		(pin "B3"
+			(uuid "b11d4f44-9787-4d56-9ba0-c3f6380fd3fa")
+		)
+		(pin "B23"
+			(uuid "6d665b3c-b296-4f76-8a17-b1784254fd63")
+		)
+		(pin "B33"
+			(uuid "45e9fff2-98ec-431f-b1a3-fba807f19c7b")
+		)
+		(pin "B47"
+			(uuid "f4fb1010-cbb4-4720-9dff-cf6450489193")
+		)
+		(pin "B52"
+			(uuid "a9fcc992-5ed4-40a0-ae16-489bcf99c114")
+		)
+		(pin "B58"
+			(uuid "02648962-12b5-47f4-abc5-7999bc9e03a9")
+		)
+		(pin "B11"
+			(uuid "bd37b4fa-3577-4fef-8acb-d0381dc42461")
+		)
+		(pin "B4"
+			(uuid "f6f112fb-0834-4e07-ab91-a2a0aac5253f")
+		)
+		(pin "B59"
+			(uuid "c184974c-00af-438d-b33d-d5689b17c0ff")
+		)
+		(pin "B6"
+			(uuid "bbf5c3a6-2ddb-4fd8-8061-f9f3ef839c9e")
+		)
+		(pin "B30"
+			(uuid "2f924a27-11b0-4bb3-a44a-d8be3ceaba64")
+		)
+		(pin "B25"
+			(uuid "6dc31768-b843-466e-b9ed-731c0ba80f10")
+		)
+		(pin "B36"
+			(uuid "d33b08e4-50a1-47f2-8a49-09ce23950581")
+		)
+		(pin "B10"
+			(uuid "c7cb5480-5d3e-4c93-ba73-47e78e74555d")
+		)
+		(pin "B22"
+			(uuid "15f86ec1-673c-4aba-b9dc-67fdebcae5c7")
+		)
+		(pin "B60"
+			(uuid "0ab56b09-9791-41dd-a68f-0ecce0eb8a2c")
+		)
+		(pin "B62"
+			(uuid "48466753-b48d-497d-9653-e73491006d24")
+		)
+		(pin "B21"
+			(uuid "e665d149-7a3f-484c-a29e-7944a177d4e1")
+		)
+		(pin "B35"
+			(uuid "3f5a43e2-b39c-4ee2-bee9-e41553eb94ea")
+		)
+		(pin "B63"
+			(uuid "20eb1ea7-2a1d-4aee-9e87-5bb82597d306")
+		)
+		(pin "B64"
+			(uuid "f5ca0c15-66b8-4a78-b036-7979fab13795")
+		)
+		(pin "B39"
+			(uuid "9a9261a4-0f00-4bea-800e-524ede1e8687")
+		)
+		(pin "B43"
+			(uuid "b58c2c31-5f58-4a68-8162-d950540c3055")
+		)
+		(pin "B61"
+			(uuid "0fe1de15-ac32-4bdc-a926-6957c64ad618")
+		)
+		(pin "B65"
+			(uuid "bc8858c3-559f-4039-8555-6b24348daf55")
+		)
+		(pin "B66"
+			(uuid "fed61fe2-9996-4798-8daf-2481daca81d9")
+		)
+		(pin "B18"
+			(uuid "bd7c133a-edb3-46ca-80a0-2ba9d2b39f69")
+		)
+		(pin "B67"
+			(uuid "70131971-b08c-4aac-950b-df466f70510b")
+		)
+		(pin "B56"
+			(uuid "22465719-a0e0-430f-8582-c07391502546")
+		)
+		(pin "B50"
+			(uuid "5578d9ab-0606-4d88-a76b-866050a3d413")
+		)
+		(pin "B51"
+			(uuid "de99a205-2e7f-4378-a3ef-5e216f0aea50")
+		)
+		(pin "B68"
+			(uuid "4248bc6b-0432-4775-980f-8d0a67cd754d")
+		)
+		(pin "B26"
+			(uuid "1708f982-6af0-493d-bba5-b0ab20c093a3")
+		)
+		(pin "B45"
+			(uuid "5f7064c5-1101-4b54-8aeb-0f24272f2294")
+		)
+		(pin "B46"
+			(uuid "9a49b75b-1b37-4d66-b827-f9e126d0e4e5")
+		)
+		(pin "B32"
+			(uuid "bfdb0b84-9007-4ee2-b41b-ecb791fa4d3c")
+		)
+		(pin "B15"
+			(uuid "f296b551-2178-46bc-a18b-233d8c91989c")
+		)
+		(pin "B41"
+			(uuid "e8c485e5-8750-4489-b769-5a50ad87ed4a")
+		)
+		(pin "B13"
+			(uuid "18f04e1c-5965-4253-8b73-6bce7879eb76")
+		)
+		(pin "B42"
+			(uuid "8cdab41b-79e1-4ade-a080-fcd5b054b827")
+		)
+		(pin "B16"
+			(uuid "bee4a6f9-f16f-4124-a08f-e84edc21ee48")
+		)
+		(pin "B31"
+			(uuid "b4d0a3d7-db0b-47e8-a74d-1599a5e95b89")
+		)
+		(pin "B29"
+			(uuid "c43eae6a-edbd-44d9-876a-37d0b07e1af1")
+		)
+		(pin "B37"
+			(uuid "fe2029d3-965f-49b0-bc55-c6e9cb03a52c")
+		)
+		(pin "B55"
+			(uuid "356ab08f-b3da-489c-9b39-708c214080d2")
+		)
+		(pin "B20"
+			(uuid "4511eaed-5ddd-4847-a4b5-a977f59e5f89")
+		)
+		(pin "B74"
+			(uuid "e5df723f-bc63-490c-b420-ba409172b08e")
+		)
+		(pin "B9"
+			(uuid "ebc67a0f-04d1-4463-9c6e-6c1ac79b95c5")
+		)
+		(pin "B70"
+			(uuid "fc496a4c-ee50-4e6d-b3ba-a545d86bb405")
+		)
+		(pin "B69"
+			(uuid "2a301603-ca8c-44ff-935d-dc9f925f61ee")
+		)
+		(pin "B71"
+			(uuid "da2b6749-bfd9-4adc-a3c0-042bb125507c")
+		)
+		(pin "B8"
+			(uuid "5387508d-93db-4ad0-88f0-094899f85345")
+		)
+		(pin "B75"
+			(uuid "5bbad5a1-9787-4aea-8914-facee257b3a0")
+		)
+		(pin "B7"
+			(uuid "60f927a0-0ffc-419d-a45d-f3f03ba708c7")
+		)
+		(pin "B79"
+			(uuid "1eb174dc-a3a3-45ca-966f-11b099a90531")
+		)
+		(pin "B76"
+			(uuid "60b8346f-9459-4072-8d50-3d07eb25f95b")
+		)
+		(pin "B81"
+			(uuid "cf5a88c3-4646-4d01-a5c3-2ee1aa83ceba")
+		)
+		(pin "B78"
+			(uuid "55db9305-b77d-4ee8-9d1a-d6f9279e12cc")
+		)
+		(pin "B80"
+			(uuid "04f8b2b7-faf5-4077-ade3-12b786f1b022")
+		)
+		(pin "B77"
+			(uuid "fa99ec80-f828-4e05-acec-5761f9e068e7")
+		)
+		(pin "B82"
+			(uuid "a19663fa-2975-430b-81c9-07ec93986339")
+		)
+		(pin "B72"
+			(uuid "7c33a365-031c-4e41-975a-bc7bdf400ee0")
+		)
+		(pin "B73"
+			(uuid "00f7f288-8ab6-485f-b6bf-2c5c56f37015")
+		)
+		(instances
+			(project "BackPanel"
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/0e5ca79e-3ada-4e93-ae1b-63bea9b67d65"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/3605981b-c0d8-4b08-ac31-5a8872b8aa56"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/c8006b45-d7fe-4688-933d-ad09da00a47d"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

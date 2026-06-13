@@ -1,0 +1,91 @@
+01-12 14:12:55 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 178:Plugin executed on: 'win32'
+01-12 14:12:55 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 179:Plugin executed with python version: '3.11.5 (main, Jul 16 2024, 08:01:06) [MSC v.1939 64 bit (AMD64)]'
+01-12 14:12:56 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 180:KiCad build version: 8.0.4
+01-12 14:12:56 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 181:Plugin version: 3.0.1
+01-12 14:12:56 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 182:Frame repr: <wx._core.Frame object at 0x000002C36E3804C0>
+01-12 14:12:56 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 200:Anchor footprint reference is 'U1'
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 209:Save layout chosen
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 453:Working on Z:\University\v2\ComputerModule\ComputeModule_PCB\ComputeModule_PCB.kicad_pcb
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 458:Saving the current board temporary in order to leave current layout intact
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 464:Saving board as tempfile: C:\Users\Admin\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 469:Loaded temp boardfile: C:\Users\Admin\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 470:Get project schematics and layout data
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 91:populating the levels with ['5V_power.kicad_sch']
+01-12 14:12:57 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 92:populating the levels with ['5V-Power']
+01-12 14:13:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:01 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:02 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:02 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:09 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:09 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:09 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:12 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:12 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:12 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:13 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:13 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:13 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:14 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:14 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:14 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:15 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:15 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:15 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:16 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:16 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:16 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:17 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:17 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:17 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:22 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:22 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:22 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:22 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:24 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:24 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:24 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:25 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:25 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:25 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:28 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:29 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:29 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:29 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:29 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:29 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:33 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:35 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:35 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:35 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:38 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:38 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:38 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:39 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:39 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:39 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:43 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:43 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:43 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:44 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:44 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:44 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']
+01-12 14:13:44 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-12 14:13:45 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-12 14:13:45 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['5V-Power']

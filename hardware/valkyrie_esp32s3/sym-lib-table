@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2025-01-06_16-30-20")(type "KiCad")(uri "${KIPRJMOD}/../imports/M24C02_WMN6TP/KiCADv6/2025-01-06_16-30-20.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-01-06_16-30-05")(type "KiCad")(uri "${KIPRJMOD}/../imports/CAT25160VI_GT3/KiCADv6/2025-01-06_16-30-05.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-01-06_13-50-15")(type "KiCad")(uri "${KIPRJMOD}/../imports/ul_TPSM33625RDNR/KiCADv6/2025-01-06_13-50-15.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-01-08_13-35-42")(type "KiCad")(uri "${KIPRJMOD}/../imports/ul_TS3USB30ERSWR/KiCADv6/2025-01-08_13-35-42.kicad_sym")(options "")(descr ""))
+  (lib (name "king_slide")(type "KiCad")(uri "${KIPRJMOD}/../imports/dipslide/king_slide.kicad_sym")(options "")(descr ""))
+)

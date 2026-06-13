@@ -1,0 +1,86 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9fdc58b2-3b84-4618-8cff-69c3715704ed")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 73.66 43.18)
+		(size 21.59 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17be391b-3cbf-44eb-949e-e143f9a956ce")
+		(property "Sheetname" "USB"
+			(at 73.66 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 73.66 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S" input
+			(at 73.66 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1e5e75a0-f716-458c-97a6-d15315a6604e")
+		)
+		(pin "USB{D+,D-}" input
+			(at 73.66 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4bc9efd0-2030-4e5d-9493-0864d995639b")
+		)
+		(pin "USB_X{D+,D-}" input
+			(at 90.17 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "04415c52-c8c8-46a8-a789-25d05aa14928")
+		)
+		(pin "USB_INT{D+,D-}" input
+			(at 73.66 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eff7abcd-167f-4398-b55b-078b32245de7")
+		)
+		(instances
+			(project "BackPanel"
+				(path "/587bb7d8-6763-4754-be2e-74fb08763e09/a0b8a264-ed25-4df2-9bf0-846d9bfd3dd9"
+					(page "226")
+				)
+			)
+		)
+	)
+)
